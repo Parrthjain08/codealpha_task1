@@ -19,3 +19,5 @@ for i in range(num_stocks):
 print("\n------ Portfolio Summary ------")
 for stock in portfolio:
     print(f"{stock[0]} - Quantity: {stock[1]}, Price: ${stock[2]}, Value: ${stock[3]}")
+
+print(f"\nTotal Investment Value: ${total_investment
